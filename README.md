@@ -26,13 +26,9 @@
 
 - This project is called LEADERBOARD. It is a project for implementing knowledge of APIs.
 
-**[AWESOME BOOKS]** is a website that is used for implementing knowledge of APIs.
-
-## 🛠 Built With <a name="HTML and CSS and JS"></a>
+## 🛠 Built With <a name="HTML and CSS and JS and WEBPACK"></a>
 
 ### Tech Stack <a name="Front end (Javascript)"></a>
-
-- This is a mobile and desk-top browser responsive website.
 
 <details>
   <summary>Client</summary>
@@ -49,6 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Gitflow is used]**
 - **[Data is stored in local storage]**
 - **[Data can be retrieved from local storage]**
 
@@ -64,14 +61,15 @@ In order to run this project you need:
 
 - Git
 - An IDE (VsCode, Atom, etc)
+- Node.js for Npm
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Otegaa/Awesome-books.git
-  cd AWESOME BOOKS
+  git clone https://github.com/Otegaa/leaderboard.git
+  cd LEADERBOARD
 ```
 
 ### Install
@@ -80,9 +78,15 @@ Install this project with:
 
 - npm Install
 
+### Usage
+
+npm run start
+This runs the application in the development mode
+Open http://localhost:8080 to view it in the browser.
+
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/Otegaa)
 - Twitter: [@twitterhandle](https://twitter.com/O_tegaaa)
@@ -92,7 +96,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Create dynamic navigation to different pages.
+- Use APIs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +104,7 @@ Install this project with:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Otegaa/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/Otegaa/leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,6 +122,6 @@ I would like to thank Microverse community for giving me the guide to building t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Otegaa/Awesome-books/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Otegaa/leaderboard/blob/development/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
