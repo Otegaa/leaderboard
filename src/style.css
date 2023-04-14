@@ -49,7 +49,7 @@ button:hover {
 
 .board-container {
   display: flex;
-  gap: 4rem;
+  gap: 10rem;
   margin-left: 4rem;
 }
 
@@ -57,11 +57,17 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 40%;
 }
 
 .scores-heading {
   display: flex;
   gap: 2rem;
+  justify-content: space-between;
+}
+
+.scores-heading h3 {
+  font-size: 3rem;
 }
 
 .scores-container {
@@ -93,29 +99,53 @@ button:hover {
   align-items: center;
 }
 
-.input-name,
-.input-number {
-  font-size: 1.5rem;
-  padding: 1rem;
-  border-radius: 2px;
-  border: none;
-  cursor: pointer;
+.form-score {
+  font-size: 2.5rem;
 }
 
-.input-name:focus,
-.input-number:focus {
+.input {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 2px;
+  font-family: inherit;
+  cursor: pointer;
+  display: block;
+}
+
+.input:focus {
   outline: none;
   border-bottom: 3px solid #000;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
+.input:focus:invalid {
+  border-bottom: 3px solid red;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  margin-right: 9rem;
+  margin-top: -1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+.input:placeholder-shown + .form-label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-3.75rem);
+}
+
 .input-button {
   align-self: flex-end;
   padding: 0.5rem 1rem;
+  margin-top: -2rem;
   cursor: pointer;
-  transition: all 0.2s;
   border: 2px solid #000;
   border-radius: 3px;
+  transition: all 0.2s;
 }
 
 .input-button:hover {
