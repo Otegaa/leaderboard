@@ -96,7 +96,9 @@ Open http://localhost:8080 to view it in the browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Use APIs
+- Integrate styling with external framework
+- Make the website mobile responsive
+- Make analysis of all scores
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
